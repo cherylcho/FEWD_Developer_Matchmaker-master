@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+header {
+	background-color: black;
+	border-style: solid;
+    border-bottom-color: yellow;
+}
+
+nav {
+	min-height: 40px;
+	/*width: 100%;*/
+	font-family: Merriweather, serif;
+	margin-top: 20px;
+}
+
+body {
+	font-family: Source Sans Pro, serif;
+}
+
+.main {
+	float: left;
+	color: yellow;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.main-nav {
+	float: right;
+	padding-right: 100px;
+}
+
+.home {
+	color: yellow;
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 15px;
+	font-family: Merriweather, serif;
+}
+
+.other {
+	/*float: right;*/
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.quote {
+	background-color: #b3b3b3;
+	font-size: 26px;
+	font-style: italic;
+	min-height: 40px;
+	text-align: center; 
+	padding-top: 10px;
+}
+
+strike {
+	color: #808080;
+}
+
+u {
+	text-decoration: none;
+	border-bottom: 2px solid yellow;
+}
+
+.coworkingimage {
+	background-image: url("../images/coworking.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+
+.match {
+	width: 430px;
+	height: 250px;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	background-color: white; opacity: .85;
+	margin-right: 100px;
+	margin-top: 75px;
+	padding-left: 30px;
+}
+
+.button_top {
+	background-color: yellow;
+	padding: 13px 115px;
+	border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Oswald, sans-serif;
+}
+
+.col-third {
+	width: 33.333%;
+	box-sizing: border-box;
+	float: left;
+	min-height: 230px;
+	padding: 20px;
+	border-right: 1px solid #ccc;
+}
+
+button {
+	background-color: #b3b3b3;
+    border: none;
+    color: black;
+    padding: 13px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    font-family: Oswald, sans-serif;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	min-height: 50px;
+	align-items: center;
+	padding: 1rem;
+}
+
+p {
+	width: 350px;
+}
